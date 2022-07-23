@@ -1,9 +1,9 @@
-package market;
+package main;
 
 import models.*;
 
 public class Main {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Menu menu = new Menu();
         Product product1 = new Product(1,"smartphone",550);
         Product product2 = new Product(2,"laptop",1200);
